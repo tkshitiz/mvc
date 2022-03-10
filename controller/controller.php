@@ -4,7 +4,7 @@ include('model/Model.php');
 class controller{
 
 
-  public $model;
+ public $model;
  public function __construct()  
  {
    $this->model=new Model();
@@ -20,7 +20,7 @@ class controller{
      else
      {
          $book=$this->model->getBook($_GET['book']);
-         echo "hello";
+         include('./view/viewbook.php');
      }
  }
 
