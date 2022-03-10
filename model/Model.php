@@ -8,7 +8,7 @@ class Model {
 
       
         return array("xyz"=> new Book('javra','kshitiz thapa','this is javra book'),
-             "ksss"=>  new Book('havra','ksksks','this is havra book') 
+             "ksss"=>  new Book('havra','ksksks','this is havra book')
         
     );
     } 
